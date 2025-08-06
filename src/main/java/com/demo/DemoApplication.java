@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DemoApplication extends SpringBootServletInitializer {  // ✅ FIXED
+public class DemoApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
@@ -17,4 +17,3 @@ public class DemoApplication extends SpringBootServletInitializer {  // ✅ FIXE
         SpringApplication.run(DemoApplication.class, args);
     }
 }
-
